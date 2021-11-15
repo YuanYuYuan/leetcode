@@ -1,0 +1,110 @@
+== Data Structure
+
+=== Array
+
+:lc-name: Search in Rotated Sorted Array
+:lc-numb: 0033
+:lc-link: https://leetcode.com/problems/search-in-rotated-sorted-array/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+:lc-name: Maximum Subarray
+:lc-numb: 0053
+:lc-link: https://leetcode.com/problems/maximum-subarray/
+:lc-type: Easy
+include::./leetcode_template.adoc[]
+
+=== Matrix
+
+:lc-name: Set Matrix Zeroes
+:lc-numb: 0073
+:lc-link: https://leetcode.com/problems/maximum-subarray/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+:lc-name: Spiral Matrix
+:lc-numb: 0054
+:lc-link: https://leetcode.com/problems/spiral-matrix/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+:lc-name: Rotate Image
+:lc-numb: 0048
+:lc-link: https://leetcode.com/problems/rotate-image/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+
+=== Interval
+
+:lc-name: Merge Intervals
+:lc-numb: 0056
+:lc-link: https://leetcode.com/problems/merge-intervals/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+:lc-name: Insert Intervals
+:lc-numb: 0057
+:lc-link: https://leetcode.com/problems/insert-interval/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+:lc-name: Non-overlapping Intervals
+:lc-numb: 0435
+:lc-link: https://leetcode.com/problems/non-overlapping-intervals/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+=== Linked List
+
+:lc-name: Reverse Linked List
+:lc-numb: 0206
+:lc-link: https://leetcode.com/problems/reverse-linked-list/
+:lc-type: Easy
+include::./leetcode_template.adoc[]
+
+:lc-name: Linked List Cycle
+:lc-numb: 0141
+:lc-link: https://leetcode.com/problems/linked-list-cycle/
+:lc-type: Easy
+include::./leetcode_template.adoc[]
+
+:lc-name: Merge Two Sorted Lists
+:lc-numb: 0021
+:lc-link: https://leetcode.com/problems/merge-two-sorted-lists/
+:lc-type: Easy
+include::./leetcode_template.adoc[]
+
+:lc-name: Merge k Sorted Lists
+:lc-numb: 0023
+:lc-link: https://leetcode.com/problems/merge-k-sorted-lists/
+:lc-type: Hard
+include::./leetcode_template.adoc[]
+
+:lc-name: Remove Nth Node From End of List
+:lc-numb: 0019
+:lc-link: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+:lc-name: Reorder List
+:lc-numb: 0143
+:lc-link: https://leetcode.com/problems/reorder-list/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+=== Graph
+
+:lc-name: Clone Graph
+:lc-numb: 0133
+:lc-link: https://leetcode.com/problems/clone-graph/
+:lc-type: Easy
+include::./leetcode_template.adoc[]
+
+=== Set
+
+:lc-name: Longest Consecutive Sequence
+:lc-numb: 0128
+:lc-link: https://leetcode.com/problems/longest-consecutive-sequence/
+:lc-type: Medium
+include::./leetcode_template.adoc[]

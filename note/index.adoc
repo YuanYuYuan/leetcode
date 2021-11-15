@@ -1,0 +1,42 @@
+= Leetcode Note
+:nofooter:
+:toc: left
+:toclevels: 3
+:icons: font
+:source-highlighter: rouge
+:rouge-style: thankful_eyes
+:sectlinks:
+:sectanchors:
+:stem:
+
+include::./algorithm.adoc[]
+include::./data-structure.adoc[]
+
+== Source
+
+- https://iter01.com/537719.html
+- https://www.youtube.com/c/TECHDOSE4u/videos
+- https://www.notion.so/lenchen/LeetCode-47d625b874894484af7c055b024b9817
+- https://iter01.com/522612.html
+- https://www.cnblogs.com/grandyang/p/6759881.html
+- https://github.com/a110605/leetcode-practice
+
+Top 100 liked problems: https://blog.csdn.net/linxid/article/details/88752294
+
+== Interview Experience
+
+- https://www.ptt.cc/man/Tech_Job/DB04/D742/D2E/M.1555636275.A.7B6.html
+
+== Todo
+
+- https://leetcode.com/explore/challenge/card/july-leetcoding-challenge-2021/612/week-5-july-29th-july-31st/3833/
+- https://www.geeksforgeeks.org/topological-sorting-indegree-based-solution/
+- Study min-heap
+- https://leetcode.com/contest/weekly-contest-256/problems/minimum-number-of-work-sessions-to-finish-the-tasks/
+- https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/636/week-1-september-1st-september-7th/3963/
+- https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/616/week-4-august-22nd-august-28th/3950/
+- https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/637/week-2-september-8th-september-14th/3972/discuss/156739/C++JavaPython-Dijkstra-+-Priority-Queue
+
+== Python skills
+
+- https://leetcode.com/problems/implement-trie-prefix-tree/discuss/58887/python-each-function-only-one-line

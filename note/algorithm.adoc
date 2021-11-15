@@ -1,0 +1,124 @@
+== Algorithm
+
+=== Dynamic Programming
+
+:lc-name: Decode Ways
+:lc-numb: 0091
+:lc-link: https://leetcode.com/problems/decode-ways/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+:lc-name: Unique Paths
+:lc-numb: 0062
+:lc-link: https://leetcode.com/problems/unique-paths/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+:lc-name: Coin Change
+:lc-numb: 0322
+:lc-link: https://leetcode.com/problems/coin-change/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+:lc-name: Longest Increasing Subsequence
+:lc-numb: 0300
+:lc-link: https://leetcode.com/problems/longest-increasing-subsequence/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+:lc-name: Longest Common Subsequence
+:lc-numb: 1143
+:lc-link: https://leetcode.com/problems/longest-common-subsequence/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+:lc-name: Word Break
+:lc-numb: 0139
+:lc-link: https://leetcode.com/problems/word-break/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+:lc-name: Combination Sum IV
+:lc-numb: 0377
+:lc-link: https://leetcode.com/problems/combination-sum-iv/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+:lc-name: House Robber
+:lc-numb: 0198
+:lc-link: https://leetcode.com/problems/house-robber/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+:lc-name: House Robber II
+:lc-numb: 0213
+:lc-link: https://leetcode.com/problems/house-robber-ii/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+:lc-name: Jump Game
+:lc-numb: 0055
+:lc-link: https://leetcode.com/problems/jump-game/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+=== BFS
+
+:lc-name: Perfect Squares
+:lc-numb: 0279
+:lc-link: https://leetcode.com/problems/perfect-squares/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+=== DFS
+
+:lc-name: Course Schedule
+:lc-numb: 0207
+:lc-link: https://leetcode.com/problems/course-schedule/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+:lc-name: Pacific Atlantic Water Flow
+:lc-numb: 0417
+:lc-link: https://leetcode.com/problems/pacific-atlantic-water-flow/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+:lc-name: Longest Increasing Path in a Matrix
+:lc-numb: 0329
+:lc-link: https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
+:lc-type: Hard
+include::./leetcode_template.adoc[]
+
+:lc-name: Number of Islands
+:lc-numb: 0200
+:lc-link: https://leetcode.com/problems/number-of-islands/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+:lc-name: Word Search
+:lc-numb: 0079
+:lc-link: https://leetcode.com/problems/word-search/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+
+=== Sliding Window
+
+:lc-name: Longest Substring Without Repeating Characters
+:lc-numb: 0003
+:lc-link: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+:lc-name: Longest Repeating Character Replacement
+:lc-numb: 0424
+:lc-link: https://leetcode.com/problems/longest-repeating-character-replacement/
+:lc-type: Medium
+include::./leetcode_template.adoc[]
+
+:lc-name: Valid Anagram
+:lc-numb: 0242
+:lc-link: https://leetcode.com/problems/valid-anagram/
+:lc-type: Medium
+include::./leetcode_template.adoc[]

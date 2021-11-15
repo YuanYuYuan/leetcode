@@ -1,0 +1,9 @@
+.{lc-link}[{lc-numb}. {lc-name}]
+[%collapsible]
+====
+Difficulty: {lc-type}
+[source, python, options="nowrap"]
+----
+include::../python/{lc-numb}.py[]
+----
+====
