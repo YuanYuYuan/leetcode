@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 class Solution {
 public:
@@ -19,6 +20,8 @@ private:
 
 int main() {
     Solution sol;
+    vector<int> vec;
+
     for (int i{}; i < 5; i++) {
         std::cout << sol.numTrees(i) << std::endl;
     }
