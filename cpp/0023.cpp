@@ -1,5 +1,6 @@
 #include <vector>
 #include <iostream>
+#include <queue>
 
 using namespace std;
 
@@ -28,9 +29,36 @@ struct ListNode {
 };
 
 
+
 class Solution {
 public:
-    ListNode* mergeKLists(vector<ListNode*>& lists, int i = 0, int j = -1) {
+    ListNode* mergeKLists(vector<ListNode*>& lists) {
+        return priorityQueueMethod(lists);
+        // return recursiveMethod(lists);
+    }
+
+private:
+    struct Compare {
+        bool operator()(const ListNode* a, const ListNode* b) {
+            return a->val > b->val;
+        }
+    };
+
+    ListNode* priorityQueueMethod(vector<ListNode*>& lists) {
+        priority_queue<ListNode*, vector<ListNode*>, Compare> queue;
+        for (const auto& l: lists) if (l) queue.push(l);
+        ListNode* dummy = new ListNode(0);
+        ListNode* curr = dummy;
+        while (!queue.empty()) {
+            curr->next = queue.top();
+            queue.pop();
+            curr = curr->next;
+            if (curr->next) queue.push(curr->next);
+        }
+        return dummy->next;
+    }
+
+    ListNode* recursiveMethod(vector<ListNode*>& lists, int i = 0, int j = -1) {
         if (j == -1) j = lists.size() - 1;
         const int N = j - i + 1;
         if (N == 0) return nullptr;
@@ -38,12 +66,11 @@ public:
         if (N == 2) return mergeTwoLists(lists[i], lists[j]);
         const int m = (i + j) / 2;
         return mergeTwoLists(
-            mergeKLists(lists, i, m),
-            mergeKLists(lists, m+1, j)
+            recursiveMethod(lists, i, m),
+            recursiveMethod(lists, m+1, j)
         );
     }
 
-private:
     ListNode* mergeTwoLists(ListNode* root1, ListNode* root2) {
         if (!root1)  return root2;
         if (!root2)  return root1;
